@@ -23,30 +23,30 @@
                     href="{{ route('admin.dashboard') }}"><i class="fas fa-fire"></i><span>Dashboard</span></a></li>
 
             <li class="{{ setSidebarActive(['admin.information']) }}"><a class="nav-link"
-                    href="{{ route('admin.information') }}"><i class="far fa-square"></i>
+                    href="{{ route('admin.information') }}"><i class="fas fa-info"></i>
                     <span>Information</span></a></li>
 
             <li class="{{ setSidebarActive(['admin.home-section-information.index']) }}"><a class="nav-link"
-                    href="{{ route('admin.home-section-information.index') }}"><i class="far fa-square"></i>
+                    href="{{ route('admin.home-section-information.index') }}"><i class="fas fa-home"></i>
                     <span>Home Section</span></a></li>
 
             <li class="{{ setSidebarActive(['admin.service.*']) }}"><a class="nav-link"
-                    href="{{ route('admin.service.index') }}"><i class="far fa-square"></i>
+                    href="{{ route('admin.service.index') }}"><i class="fas fa-cog"></i>
                     <span>Service Section</span></a></li>
 
             <li class="{{ setSidebarActive(['admin.portfolio.*']) }}"><a class="nav-link"
-                    href="{{ route('admin.portfolio.index') }}"><i class="far fa-square"></i>
+                    href="{{ route('admin.portfolio.index') }}"><i class="fas fa-portrait"></i>
                     <span>Portfolio</span></a></li>
 
             <li class="{{ setSidebarActive(['admin.user-information-show.*']) }}"><a class="nav-link"
-                    href="{{ route('admin.user-information-show.index') }}"><i class="far fa-square"></i>
+                    href="{{ route('admin.user-information-show.index') }}"><i class="fas fa-envelope"></i>
                     <span>Contact Message</span></a></li>
 
 
 
             <li
                 class="dropdown {{ setSidebarActive(['admin.my-experience.*', 'admin.my-education.*', 'admin.my-skill.*']) }}">
-                <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i>
+                <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-box"></i>
                     <span>Resume</span></a>
                 <ul class="dropdown-menu">
                     <li class="{{ setSidebarActive(['admin.my-experience.*']) }}"><a class="nav-link"
