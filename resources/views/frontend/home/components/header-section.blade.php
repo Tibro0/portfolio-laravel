@@ -1,5 +1,5 @@
 <header class="active">
-    <a href="javascript:;" class="logo">Lucius.</a>
+    <a href="javascript:;" class="logo">{{ $information['last_name'] }}</a>
     <i class='bx bx-menu' id="menu-icon"></i>
 
     <nav>
