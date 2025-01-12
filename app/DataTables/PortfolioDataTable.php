@@ -24,8 +24,8 @@ class PortfolioDataTable extends DataTable
         return (new EloquentDataTable($query))
             ->addColumn('action', function($query){
                 $edit = "<a href='".route('admin.portfolio.edit', $query->id)."' class='btn btn-primary'><i class='fas fa-edit'></i></a>";
-                $delete = "<a href='".route('admin.portfolio.destroy', $query->id)."' class='btn btn-danger ml-2' id='delete'><i class='fas fa-trash'></i></a>";
-                return $edit.$delete;
+                // $delete = "<a href='".route('admin.portfolio.destroy', $query->id)."' class='btn btn-danger ml-2' id='delete'><i class='fas fa-trash'></i></a>";
+                return $edit;
             })
             ->addColumn('image', function($query){
                 return "<img width='50' src='".asset($query->image)."'>";

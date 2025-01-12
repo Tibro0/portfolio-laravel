@@ -15,9 +15,9 @@
         <div class="card card-primary">
             <div class="card-header">
                 <h4>All Portfolio Section</h4>
-                <div class="card-header-action">
+                {{-- <div class="card-header-action">
                     <a href="{{ route('admin.portfolio.create') }}" class="btn btn-primary">Create new</a>
-                </div>
+                </div> --}}
             </div>
             <div class="card-body">
                 {{ $dataTable->table() }}
