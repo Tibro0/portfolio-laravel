@@ -56,8 +56,7 @@
 
             <div class="resume-detail about">
                 <h2 class="heading">About <span>Me</span></h2>
-                <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque tempora quam sunt
-                    expedita, harum ipsum eaque consequuntur obcaecati soluta vel.</p>
+                <p class="desc">{{ $information['about_me_short_description'] }}</p>
                 <div class="resume-list">
                     <div class="resume-item">
                         <p>Name <span>{{ $information['first_name'] }} {{ $information['last_name'] }}</span></p>
