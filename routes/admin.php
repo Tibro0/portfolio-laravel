@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\AboutMeController;
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\HomeSectionInformationController;
 use App\Http\Controllers\Admin\InformationController;
@@ -42,6 +43,10 @@ Route::resource('my-education', MyEducationController::class);
 /** My skill Routes */
 Route::put('my-skill-short-description/update', [MySkillController::class, 'MySkillShortDescriptionUpdate'])->name('my-skill-short-description.update');
 Route::resource('my-skill', MySkillController::class);
+
+/** My skill Routes */
+Route::get('about-me-short-description-index', [AboutMeController::class, 'index'])->name('about-me-short-description.index');
+Route::put('about-me-short-description-update', [AboutMeController::class, 'aboutMeShortDescriptionUpdate'])->name('about-me-short-description.update');
 
 /** portfolio Routes */
 Route::resource('portfolio', PortfolioController::class);

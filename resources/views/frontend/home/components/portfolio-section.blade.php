@@ -12,9 +12,11 @@
                             <p>{{ $portfolio->language }}</p>
                         </div>
                         <div class="live-github">
-                            <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
+                            <a target="_blank" href="{{ $portfolio->live_link }}"><i
+                                    class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>
@@ -27,9 +29,11 @@
                             <p>{{ $portfolio->language }}</p>
                         </div>
                         <div class="live-github">
-                            <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
+                            <a target="_blank" href="{{ $portfolio->live_link }}"><i
+                                    class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>
@@ -41,10 +45,11 @@
                         <div class="tech">
                             <p>{{ $portfolio->language }}</p>
                         </div>
-                        <div class="live-github">
+                        <div target="_blank" class="live-github">
                             <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>
@@ -57,9 +62,11 @@
                             <p>{{ $portfolio->language }}</p>
                         </div>
                         <div class="live-github">
-                            <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
+                            <a target="_blank" href="{{ $portfolio->live_link }}"><i
+                                    class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>
@@ -72,9 +79,11 @@
                             <p>{{ $portfolio->language }}</p>
                         </div>
                         <div class="live-github">
-                            <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
+                            <a target="_blank" href="{{ $portfolio->live_link }}"><i
+                                    class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>
@@ -87,9 +96,11 @@
                             <p>{{ $portfolio->language }}</p>
                         </div>
                         <div class="live-github">
-                            <a href="{{ $portfolio->live_link }}"><i class='bx bx-arrow-back'></i><span>Live
+                            <a target="_blank" href="{{ $portfolio->live_link }}"><i
+                                    class='bx bx-arrow-back'></i><span>Live
                                     Project</span></a>
-                            <a href="{{ $portfolio->github_link }}"><i class='bx bxl-github'></i><span>Github
+                            <a target="_blank" href="{{ $portfolio->github_link }}"><i
+                                    class='bx bxl-github'></i><span>Github
                                     Repository</span></a>
                         </div>
                     </div>

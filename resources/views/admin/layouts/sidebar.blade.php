@@ -45,7 +45,7 @@
 
 
             <li
-                class="dropdown {{ setSidebarActive(['admin.my-experience.*', 'admin.my-education.*', 'admin.my-skill.*']) }}">
+                class="dropdown {{ setSidebarActive(['admin.my-experience.*', 'admin.my-education.*', 'admin.my-skill.*', 'admin.about-me-short-description.*']) }}">
                 <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-box"></i>
                     <span>Resume</span></a>
                 <ul class="dropdown-menu">
@@ -55,6 +55,9 @@
                             href="{{ route('admin.my-education.index') }}">My Education</a></li>
                     <li class="{{ setSidebarActive(['admin.my-skill.*']) }}"><a class="nav-link"
                             href="{{ route('admin.my-skill.index') }}">My skills</a></li>
+
+                    <li class="{{ setSidebarActive(['admin.about-me-short-description.*']) }}"><a class="nav-link"
+                            href="{{ route('admin.about-me-short-description.index') }}">About Me</a></li>
                 </ul>
             </li>
 
