@@ -93,8 +93,8 @@ class PortfolioController extends Controller
             $manager = new ImageManager(new Driver());
             $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension();
             $img = $manager->read($image);
-            $img = $img->resize(700,684);
-            $img->toJpeg(80)->save(base_path('public/uploads/portfolio/'.$name_gen));
+            $img = $img->cover(700,684);
+            $img->toPng(indexed: true)->save(base_path('public/uploads/portfolio/'.$name_gen));
             $save_url = 'uploads/portfolio/'.$name_gen;
 
             if (file_exists($oldImage)) {

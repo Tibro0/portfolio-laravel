@@ -30,6 +30,9 @@ Route::group(['middleware' => 'guest'], function () {
 /** Front Page view Routes */
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 
+/** Download CV */
+Route::get('download', [FrontendController::class, 'download'])->name('download');
+
 /** Contact Form */
 Route::post('contact-form-submit', [UserInformationController::class, 'ContactFormSubmit'])->name('contact-form-submit');
 

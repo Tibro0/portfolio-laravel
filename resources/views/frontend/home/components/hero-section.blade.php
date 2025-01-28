@@ -13,7 +13,7 @@
         </h2>
         <p>{{ $information['home_section_description'] }}</p>
         <div class="btn-sci">
-            <a href="#" class="btn">Download CV</a>
+            <a href="{{ route('download') }}" class="btn">Download CV</a>
             <div class="sci">
                 <a target="_blank" href="{{ $information['github_link'] }}"><i class='bx bxl-github'></i></a>
                 <a target="_blank" href="{{ $information['linkedin_link'] }}"><i class='bx bxl-linkedin'></i></a>

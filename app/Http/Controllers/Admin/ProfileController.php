@@ -29,7 +29,7 @@ class ProfileController extends Controller
             $name_gen = hexdec(uniqid()).'.'.$image->getClientOriginalExtension();
             $img = $manager->read($image);
             $img = $img->resize(807,962);
-            $img->toJpeg(80)->save(base_path('public/uploads/'.$name_gen));
+            $img->toPng(indexed: true)->save(base_path('public/uploads/'.$name_gen));
             $save_url = 'uploads/'.$name_gen;
 
             $user = Auth::user();

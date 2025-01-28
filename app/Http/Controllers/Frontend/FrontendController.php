@@ -24,4 +24,10 @@ class FrontendController extends Controller
         $portfolios = Portfolio::orderBy('id', 'DESC')->get();
         return view('frontend.home.home', compact('userAvatar', 'information', 'services', 'MyExperiences', 'MyEducations', 'MySkills', 'portfolios'));
     }
+
+    public function download(){
+        $file =  public_path('uploads/download_cv/Tibro-resume.pdf');
+
+        return response()->download($file);
+    }
 }
