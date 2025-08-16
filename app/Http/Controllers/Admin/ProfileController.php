@@ -38,9 +38,9 @@ class ProfileController extends Controller
             $user->email = $request->email;
             $user->save();
 
-            if (file_exists($old_avatar)) {
-                unlink($old_avatar);
-            }
+            // if (file_exists($old_avatar)) {
+            //     unlink($old_avatar);
+            // }
 
             toastr()->success('Updated Successfully With Image!');
             return redirect()->back();

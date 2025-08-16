@@ -97,9 +97,9 @@ class PortfolioController extends Controller
             $img->toPng(indexed: true)->save(base_path('public/uploads/portfolio/'.$name_gen));
             $save_url = 'uploads/portfolio/'.$name_gen;
 
-            if (file_exists($oldImage)) {
-                unlink($oldImage);
-            }
+            // if (file_exists($oldImage)) {
+            //     unlink($oldImage);
+            // }
 
             $portfolio = Portfolio::findOrFail($id);
             $portfolio->image = $save_url;
