@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('description');
             $table->string('language');
-            $table->string('live_link');
+            $table->string('live_link')->nullable();
             $table->string('github_link');
             $table->timestamps();
         });
