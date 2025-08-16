@@ -5,6 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <!-- Add this to avoid blank WhatsApp previews -->
+    <meta property="og:image:alt" content="Faysal Hossain - Full Stack Developer Portfolio">
+    <!-- Standard Meta Tags -->
+    <meta name="keywords"
+        content="Full Stack Developer, Laravel Developer, PHP Developer, Web Developer, JavaScript, Bootstrap 5, HTML5, CSS3, Freelancer, Portfolio">
+    <meta name="author" content="MD. Faysal Hossain Tibro">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph (Facebook/WhatsApp) -->
+    <meta property="og:title" content="MD. Faysal Hossain Tibro | Full Stack Web Developer">
+    <meta property="og:description"
+        content="Professional Full Stack Developer | Laravel, PHP, JavaScript | Freelance Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devtibro.com/"> <!-- ✅ Good! -->
+    <meta property="og:image" content="https://devtibro.com/images/og-image.jpg"> <!-- CRITICAL FIX -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Faysal's Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card (Recommended) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MD. Faysal Hossain Tibro | Full Stack Web Developer">
+    <meta name="twitter:description" content="Laravel, PHP, JavaScript Developer | Freelance Portfolio">
+    <meta name="twitter:image" content="https://devtibro.com/images/twitter-image.jpg"> <!-- 1200x675px -->
+
     <!-- box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- toastr css links -->
