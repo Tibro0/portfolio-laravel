@@ -18,7 +18,7 @@
         content="Professional Full Stack Developer | Laravel, PHP, JavaScript | Freelance Portfolio">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://devtibro.com/"> <!-- ✅ Good! -->
-    <meta property="og:image" content="https://devtibro.com/images/og-image.jpg"> <!-- CRITICAL FIX -->
+    <meta property="og:image" content="https://devtibro.com/frontend/images/profile.png"> <!-- CRITICAL FIX -->
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Faysal's Portfolio">
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MD. Faysal Hossain Tibro | Full Stack Web Developer">
     <meta name="twitter:description" content="Laravel, PHP, JavaScript Developer | Freelance Portfolio">
-    <meta name="twitter:image" content="https://devtibro.com/images/twitter-image.jpg"> <!-- 1200x675px -->
+    <meta name="twitter:image" content="https://devtibro.com/frontend/images/profile.png"> <!-- 1200x675px -->
 
     <!-- box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
